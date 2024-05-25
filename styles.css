@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'font';
+    src: url('ShareTechMono-Regular.ttf') format('woff2'),
+    /* Add additional src declarations for different font formats if needed */
+    /* You can also specify font-weight and font-style here */
+}
+
+
+
+* {
+font-family: 'font';
+}
+
+.mobile {
+    display: none;
+}
