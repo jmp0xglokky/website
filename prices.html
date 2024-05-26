@@ -99,12 +99,12 @@
             gap: 30px;
             justify-content: center;
             padding: 0 0px;
-            tion: absolute;
+            position: absolute;
             left: 32.5%;
         }
         .card {
             background-color: #000000;
-            width: 200px;
+            width: 15vw;
             height: 200px;
             display: flex;
             flex-direction: column;
@@ -113,7 +113,8 @@
             border-radius: 10px;
             border: 2px solid #6b4eff;
             box-shadow: 0 0 20px #6b4eff;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;        
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin-left: -45%; /* Místo left použijeme margin-left */
         }
         .card:hover {
             transform: translateY(-10px);
@@ -172,7 +173,7 @@
 
     <div class="container">
         <div class="intro-text">
-            <h1>Your favourite vendor.</h1>
+            <h1>Prices.</h1>
             <div class="button-container">
                 <a href="https://discord.gg/r36fhaRw2h" target="_blank" class="glow-button">Discord</a>
             </div>
